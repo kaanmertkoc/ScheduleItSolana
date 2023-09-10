@@ -1,6 +1,6 @@
 {
   "name": "schedule-it-solana",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.4.19",
     "@solana/pay": "^0.2.5",
     "@solana/spl-name-service": "^0.1.4",
     "@solana/spl-token": "^0.3.8",
