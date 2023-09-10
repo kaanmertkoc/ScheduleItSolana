@@ -10,6 +10,7 @@ const config: Config = {
     colors: {
       sidebarBg: '#141414',
       bg: '#0a0a0a',
+      bgAlt: '#1f1f1f',
     },
     extend: {
       backgroundImage: {
