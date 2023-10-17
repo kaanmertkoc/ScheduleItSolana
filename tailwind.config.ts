@@ -11,6 +11,7 @@ const config: Config = {
       sidebarBg: '#141414',
       bg: '#0a0a0a',
       bgAlt: '#1f1f1f',
+      textGray: '#999',
     },
     extend: {
       backgroundImage: {

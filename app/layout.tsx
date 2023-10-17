@@ -1,11 +1,7 @@
-import type { Metadata } from 'next';
+'use client';
+
 import './globals.css';
 import Sidebar from './src/components/Sidebar/Sidebar';
-
-export const metadata: Metadata = {
-  title: 'Schedule It',
-  description: 'Schedule It web application.',
-};
 
 export default function RootLayout({
   children,
@@ -14,8 +10,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <Sidebar />
-      <body className='bg-bg'>{children}</body>
+      <body className='bg-bg'>
+        <>
+          <Sidebar />
+          {children}
+        </>
+      </body>
     </html>
   );
 }
